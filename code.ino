@@ -153,6 +153,7 @@ void loop() {
       lcd.print("Fan: Auto Mode");
       delay(1000);
     }
+  }
   
   if (!lightManualOverride) {
     updateLightControl();
@@ -166,7 +167,6 @@ void loop() {
       delay(1000);
     }
   }
-}
   // gradual dimming of light
   updateSunsetSimulation(currentMillis);
   
