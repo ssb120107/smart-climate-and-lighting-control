@@ -1,7 +1,7 @@
-# smart-climate-and-lighting-control
+# Smart Climate and Lighting Control
 This is an intelligent embedded system that automatically controls a fan based on room temperature and lights based on outdoor sunlight. The system uses an Arduino Uno as the main controller, with LM35 temperature sensor and dual LDR (Light Dependent Resistor) sensors for input, and relays for controlling the fan and lights. A 16x2 I2C LCD display shows real-time system status, and push buttons provide manual override capability.
 
-# Key Features:
+## Key Features:
 For Temperature control-
 The system provides automatic temperature control where the fan turns on when the room temperature exceeds 28°C and turns off when it drops below 24°C. This 4°C difference, called hysteresis, prevents rapid on-off cycling that could damage the relay. The system also includes temperature trend prediction - if the temperature is rising faster than 1.5°C per 30 seconds and reaches 26°C, the fan turns on early to pre-cool the room before it gets too hot.
 
