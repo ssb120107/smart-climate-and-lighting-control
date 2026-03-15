@@ -1,0 +1,30 @@
+# Hardware Requirements
+1. Arduino UNO-[1]
+2. LM35 Temperature sensor-[1]
+3. LDR (Light dependent Resistor)-[2]
+4. 10kΩ Resistors-[2]
+5. 16x2 I2C LCD display-[1]
+6. 2-channel relay module-[1]
+7. 12V DC Fan-[1]
+8. LED bulbs/lights-[2]
+9. Push buttons-[2]
+10. LEDs(blue,yellow,red)-[3]
+11. 220Ω Resistors-[3]
+12. Breadboard and jumper wires
+
+# Circuit connections-
+
+1. LM35 Temperature Sensor            A0
+2. Outdoor LDR(with 10kΩ to GND)      A1
+3. Indoor LDR (with 10kΩ to GND)      A2
+4. Fan Relay                          D4
+5. Light Relay                        D5
+6. Fan Button (to GND)                D6
+7. Light Button (to GND)              D7
+8. Blue LED (Fan) via 220Ω            D8
+9. Yellow LED (Light) via 220Ω        D9
+10. Red LED (Error) via 220Ω          D10
+11. I2C LCD SDA                       A4
+12. I2C LCD SCL                       A5
+13. I2C LCD VCC                       5V
+14. I2C LCD GND                       GND
